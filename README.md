@@ -1,8 +1,18 @@
-# Letianpai—Robot
+# LetianpaiService
 
-AIDL for all sys app
+**LetianpaiService** Sistema de comunicación de los comandos del robot en Android, esta diseñado para enviar y manejar los comandos a diferentes modulos del robo, usando callbacks
 
+## Características
 
+- **Funciones de envio de comandos**: Funciones que envian comandos al robot utilizando un Handler específico para cada comando
+- **Manejo de Locks**: Funciones para asegurar que los métodos sean seguros para ejecutarse en múltiples hilos
+- **Callback Remoto**: Clase que utiliza RemoteCallbackList que sirve para registrar callbacks que pueden estar en procesos diferentes
+
+## Instalación
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/AlejandroDCK/LetianpaiService
 
 ### Contribute
 
