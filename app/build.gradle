@@ -21,10 +21,10 @@ android {
     signingConfigs {
 
         config {
-            storeFile file('../keystore/letianpai.jks')
-            keyAlias 'letianpai'
-            keyPassword 'letianpai0801'
-            storePassword 'letianpai0801'
+            storeFile file('../keystore/letianservice.jks')
+            keyAlias 'letianservice'
+            keyPassword 'holahola'
+            storePassword 'holahola'
         }
 
     }
